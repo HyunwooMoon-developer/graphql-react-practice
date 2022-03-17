@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 
 CONNECTION_URL =
-  'mongodb+srv://hyunwoomoon:1234@hw-graphql-practice.6zxev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+  'mongodb+srv://hyunwoomoon:password@hw-graphql-practice.6zxev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 mongoose.connect(CONNECTION_URL);
 mongoose.connection.once('open', () => {
